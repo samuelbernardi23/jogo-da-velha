@@ -3,4 +3,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: rgba(1, 99, 102, 0.877);
+}
+body{
+    background-color: #14bdac;
 }
