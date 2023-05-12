@@ -1,11 +1,13 @@
  #titulo {
-    font-size: 24px;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
     font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgba(1, 99, 102, 0.877);
+    color: rgb(1 99 102 / 24%);
 } 
 
 * {
@@ -33,10 +35,16 @@ body {
 }
 
 .cell {
+    color: #037a6e;
+    font-size: 74px;
+    font-family: sans-serif;
     width: 100px;
     height: 100px;
     display: flex;
     border: 3px solid #079284;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;;
 } 
 
 .cell:nth-child(1){
